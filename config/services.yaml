@@ -1,0 +1,7 @@
+routes:
+  - path: "/foo"
+    service: "http://localhost:3000"
+  - path: "/bar"
+    service: "http://localhost:3001"
+  - path: "/qux"
+    service: "http://localhost:3001"
